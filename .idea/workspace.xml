@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8574749b-ca80-45f8-813c-ec2b76f43d84" name="Default Changelist" comment="" />
+    <list default="true" id="8574749b-ca80-45f8-813c-ec2b76f43d84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FactorialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/p002Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectEuler/META-INF/ProjectEuler.kotlin_module" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +25,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SXjFEGYXDUzN6BKht39y4Q36ze" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -42,18 +57,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GaussTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+  <component name="RunManager" selected="JUnit.p002Test.TestSumEvens">
+    <configuration name="FactorialTest.TestAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectEuler" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
+      <option name="METHOD_NAME" value="TestAdd" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GaussTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialTest.TestSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectEuler" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
+      <option name="METHOD_NAME" value="TestSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTest.TestSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectEuler" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
+      <option name="METHOD_NAME" value="TestSequence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GaussTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GaussTest" />
@@ -72,38 +107,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p001Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="p002Test.TestSumEvens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="p001Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="p001Test.testSumMultiples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectEuler" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="p001Test" />
-      <option name="METHOD_NAME" value="testSumMultiples" />
+      <option name="MAIN_CLASS_NAME" value="p002Test" />
+      <option name="METHOD_NAME" value="TestSumEvens" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.p001Test.testSumMultiples" />
-      <item itemvalue="JUnit.p001Test" />
-      <item itemvalue="JUnit.GaussTest.TestSum" />
       <item itemvalue="JUnit.GaussTest" />
+      <item itemvalue="JUnit.GaussTest.TestSum" />
+      <item itemvalue="JUnit.FactorialTest.TestSum" />
+      <item itemvalue="JUnit.FactorialTest.TestAdd" />
+      <item itemvalue="JUnit.FibonacciTest.TestSequence" />
+      <item itemvalue="JUnit.p002Test.TestSumEvens" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GaussTest" />
+        <item itemvalue="JUnit.p002Test.TestSumEvens" />
+        <item itemvalue="JUnit.FibonacciTest.TestSequence" />
+        <item itemvalue="JUnit.FactorialTest.TestAdd" />
+        <item itemvalue="JUnit.FactorialTest.TestSum" />
         <item itemvalue="JUnit.GaussTest.TestSum" />
-        <item itemvalue="JUnit.p001Test" />
-        <item itemvalue="JUnit.p001Test.testSumMultiples" />
       </list>
     </recent_temporary>
   </component>
@@ -117,11 +145,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571716728123</updated>
-      <workItem from="1571716729665" duration="3335000" />
+      <workItem from="1571716729665" duration="4178000" />
+      <workItem from="1571782464282" duration="4519000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
