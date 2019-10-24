@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8574749b-ca80-45f8-813c-ec2b76f43d84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FactorialTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FibonacciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/p002Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/p003Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectEuler/META-INF/ProjectEuler.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.p002Test.TestSumEvens">
+  <component name="RunManager" selected="JUnit.p003Test.TestFirstPrime">
     <configuration name="FactorialTest.TestAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,16 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GaussTest.TestSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectEuler" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GaussTest" />
-      <option name="METHOD_NAME" value="TestSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="p002Test.TestSumEvens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="PACKAGE_NAME" value="" />
@@ -117,21 +101,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="p003Test.TestFirstPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectEuler" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="p003Test" />
+      <option name="METHOD_NAME" value="TestFirstPrime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.GaussTest" />
-      <item itemvalue="JUnit.GaussTest.TestSum" />
       <item itemvalue="JUnit.FactorialTest.TestSum" />
       <item itemvalue="JUnit.FactorialTest.TestAdd" />
       <item itemvalue="JUnit.FibonacciTest.TestSequence" />
       <item itemvalue="JUnit.p002Test.TestSumEvens" />
+      <item itemvalue="JUnit.p003Test.TestFirstPrime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.p003Test.TestFirstPrime" />
         <item itemvalue="JUnit.p002Test.TestSumEvens" />
         <item itemvalue="JUnit.FibonacciTest.TestSequence" />
         <item itemvalue="JUnit.FactorialTest.TestAdd" />
         <item itemvalue="JUnit.FactorialTest.TestSum" />
-        <item itemvalue="JUnit.GaussTest.TestSum" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +140,8 @@
       <option name="presentableId" value="Default" />
       <updated>1571716728123</updated>
       <workItem from="1571716729665" duration="4178000" />
-      <workItem from="1571782464282" duration="4519000" />
+      <workItem from="1571782464282" duration="4599000" />
+      <workItem from="1571875230603" duration="2082000" />
     </task>
     <servers />
   </component>
